@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateFormActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/formulario"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/updateTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserva: Id"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/update_tipo_sala_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tipo_de_sala"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_nombre_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_dni_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dni"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_telefono_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_fecha_inicio_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fechaIni"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_fecha_fin_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fechaFin"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_num_personas_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numPersonas"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/update_comentario_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comentario"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+
+    <Button
+        android:id="@+id/updateButtonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/updateButtonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"/>
+
+</LinearLayout>

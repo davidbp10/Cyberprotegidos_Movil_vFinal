@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/formulario"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/tipo_sala_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tipo_de_sala"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/nombre_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/dni_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dni"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/telefono_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/fecha_inicio_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fechaIni"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/fecha_fin_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fechaFin"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/num_personas_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numPersonas"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/comentario_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comentario"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Guardar" />
+
+</LinearLayout>

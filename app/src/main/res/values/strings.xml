@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Cyberprotegidos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_localizacion">Localización</string>
+    <string name="menu_salas">Salas</string>
+    <string name="menu_reservas">Reservas</string>
+    <string name="anadir_reserva">Añadir reserva</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="nombre_user">Nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="hello_blank_fragment">Hello\n</string>
+    <string name="Volver">Volver</string>
+    <string name="formulario">Formulario de reserva</string>
+    <string name="tipo_de_sala">Tipo de sala</string>
+    <string name="nombre">Nombre</string>
+    <string name="dni">DNI</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="fechaIni">Fecha de inicio</string>
+    <string name="fechaFin">Fecha de fin</string>
+    <string name="numPersonas">Número de personas</string>
+    <string name="comentario">Comentario</string>
+    <string name="img_salas_tutorias">Tutorias</string>
+    <string name="img_salas_taller">Talleres</string>
+    <string name="img_salas_congreso">Congresos</string>
+    <string name="texto_salas_congreso1">La capacidad de las personas que puedan asistir a los congresos dependerá del sitio donde se celebre. </string>
+    <string name="texto_salas_congreso2">Pretendemos que en dicho congreso podamos exponer ciberataques que se hayan producido a nivel global e incluso investigaciones propias. Se impartirán en auditorios, centros que tengan como mínimo una capacidad de 200 personas.</string>
+    <string name="texto_salas_taller1">La capacidad de los talleres están limitadas según el aforo máximo del aula donde impartamos el taller.</string>
+    <string name="texto_salas_taller2">Pretendemos dar un taller educativo para un numero elevado de personas con el fin de enseñar a como evitar diferentes ciberataques y como se pueden solucionar. Se impartirán en un aula con una capacidad de unas 20–30 personas.</string>
+    <string name="texto_salas_tutoria1">La capacidad de nuestras tutorías están limitadas a grupos de 6 personas como máximo. </string>
+    <string name="texto_salas_tutoria2">Pretendemos ayudar a las personas respondiendo sus dudas tanto individuales como colectivas. Se impartirán desde una plataforma online la cual detallaremos cuando aceptemos las reservas.</string>
+    <string name="sala">Sala</string>
+    <string name="capacidad">Capacidad</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="tutoria">Tutoría</string>
+    <string name="ubicacion_tutoria">Escuela Superior de Ingeniería</string>
+    <string name="taller">Taller</string>
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string name="ubicacion_taller">Escuela Superior de Ingeniería</string>
+    <string name="congreso">Congreso</string>
+    <string name="ubicacion_congreso">Salas magnas</string>
+    <string name="_50">50</string>
+    <string name="_30">30</string>
+    <string name="_6">6</string>
+    <string name="_200">200</string>
+    <string name="conexion">Conexión</string>
+    <string name="si">Sí</string>
+    <string name="enlaces_relacionados">Enlaces relacionados:\n</string>
+    <string name="transportes">- M-030: Cádiz-Río San Pedro-Campus Universitario-Puerto Real-Hospital\n
+        - M-031: Cádiz-Río San Pedro-Campus Universitario-Puerto Real\n
+        - M-037: Cádiz-Campus De Puerto Real (Por CA-35)\n
+        - M-041: Cádiz-El Puerto De Santa María (Por Río San Pedro Y Campus Universitario De Puerto Real)</string>
+    <string name="transportes_disponibles">Medios de transporte disponibles:</string>
+    <string name="info_entorno">Entorno: La Escuela Superior de Ingeniería de la Universidad de Cádiz, se encuentra en el Campus Universitario de Puerto Real.</string>
+    <string name="ubicacion_salas">Ubicación:\n
+        Dirección Postal:\n
+        -  Escuela Superior de Ingeniería – Universidad de Cádiz.\n
+        -  Campus Universitario de Puerto Real.\n
+        -  Avda. Universidad de Cádiz, nº 10.\n
+        -  CP 11519 – Puerto Real, Cádiz.</string>
+    <string name="info_mapa">Mapa de la localización</string>
+    <string name="enlace1"><![CDATA[Haz clic <a href=\'https://siu.cmtbc.es/es/lineas.php\'>aquí</a> para ir al enlace]]></string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="ip_address">192.168.1.122</string>
+    <string name="server_port">8080</string>
+</resources>

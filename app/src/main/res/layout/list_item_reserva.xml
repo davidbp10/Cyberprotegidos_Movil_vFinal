@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/reserva_relative_1"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/reserva_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id" />
+
+            <TextView
+                android:id="@+id/reserva_text_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo de sala"
+                android:layout_below="@id/reserva_text_id"
+                />
+
+            <RelativeLayout
+                android:id="@+id/reserva_relative_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reserva_text_tipo"
+                tools:ignore="ExtraText">
+
+                <TextView
+                    android:id="@+id/reserva_text_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre" />
+
+                <TextView
+                    android:id="@+id/reserva_text_dni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_nombre"
+                    android:text="DNI" />
+
+                <TextView
+                    android:id="@+id/reserva_text_telefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_dni"
+                    android:text="Teléfono" />
+
+                <TextView
+                    android:id="@+id/reserva_text_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_telefono"
+                    android:text="Email" />
+
+                <TextView
+                    android:id="@+id/reserva_text_fechaIni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_email"
+                    android:text="Fecha de inicio" />
+
+                <TextView
+                    android:id="@+id/reserva_text_fechaFin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_fechaIni"
+                    android:text="Fecha de fin" />
+
+
+                <TextView
+                    android:id="@+id/reserva_text_numPersonas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_fechaFin"
+                    android:text="Número de personas" />
+
+                <TextView
+                    android:id="@+id/reserva_text_comentario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_numPersonas"
+                    android:text="Comentario" />
+
+                <Button
+                    android:id="@+id/reserva_button_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_comentario"
+                    android:layout_marginRight="30dp"
+                    android:layout_toStartOf="@+id/reserva_button_eliminar"
+                    android:backgroundTint="#786767"
+                    android:text="Editar" />
+
+                />
+
+                <Button
+                    android:id="@+id/reserva_button_eliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/reserva_text_comentario"
+                    android:layout_alignParentEnd="true"
+                    android:backgroundTint="#C61C1C"
+                    android:text="Eliminar" />
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/reserva_button_ver_mas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver más"
+                android:layout_below="@id/reserva_relative_2"
+                android:backgroundTint="@color/cardview_dark_background" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
